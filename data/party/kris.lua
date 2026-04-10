@@ -37,6 +37,7 @@ function character:init()
     self.has_xact = true
     -- X-Action name (displayed in this character's spell menu)
     self.xact_name = "K-Action"
+    
 
     -- Current health (saved to the save file)
     if Game.chapter == 1 then
